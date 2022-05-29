@@ -1,0 +1,217 @@
+<DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title> Website</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  *{
+    margin: 0;
+    padding: 0;
+    
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+ .header{
+   background: palegreen;
+   color: black;
+   position: sticky;
+   top: 0;
+   cursor: pointer;
+   display: block;
+   
+ }
+ .header ul{
+   display: flex;
+   list-style: none;
+   padding: 10px;
+   text-align: center;
+   align-items: center;
+   justify-content: cente;
+   
+ }
+ .header ul li{
+   padding: 0 10px;
+ }
+ .header ul li a{
+   color: black;
+   text-decoration: none;
+   font-size: 20px;
+    font-style: bold;
+  font-family:'Times New Roman', Times, serif;
+   }
+   #search{
+     width:120px;
+     height:  20px;
+    border-radius:  3px;
+     float: right;
+     border: none;
+     margin-left: 20px;
+     
+     
+     
+   }
+   #btnSm{
+     float: right;
+     margin-left: 10px;
+     border-radius:  1px;
+     border: none;
+     background: lightblue;
+     color: black;
+     height: 20px;
+
+   }
+   .btnSm input{
+     padding: 5px;
+   }
+   .container{
+     width: 90%;
+     height:80vh;
+     margin-top:10px;
+     border:3px solid blue;
+     border-radius:10px;
+     align-items:center;
+     justify-content:center;
+     margin:auto;
+   }
+   .rk{
+     font-size: 20px;
+     font-family: 'Lucida Sans';
+     color: blue;
+     padding:20px;
+     letter-spacing:1px;
+     word-spacing: 5px;
+   }
+   h2{
+     margin-top: 10px;
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+   }
+  
+   
+   .input-group input{
+     width: 100%;
+     height: 8vh;
+     padding: 10px;
+     color: red;
+     margin-left:  85px;
+     background: lightblue;
+     border-radius: 6px;
+     border: none;
+     font-size: 18px;
+     font-family: 'Times New Roman', Times, serif;
+     align-items: center;
+     justify-content: center;
+     margin: auto;
+     
+     }
+     
+     }
+   .btn{
+     width:  66%;
+     height: 6vh;
+     margin: 10px 85px;
+     border: none;
+     border-radius:  6px;
+     background: lightskyblue;
+     font-size: 20px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+     font-style:bold;
+   }
+   .btn:hover{
+     background: green;
+     font-size: 30px;
+    
+   }
+   .container-2{
+     margin-top: 10px;
+   }
+   p{
+     margin: 20px 10px;
+   }
+   .rk{
+     color: mediumspringgreen;
+     margin: 20px 0;
+   }
+   .ramesh{
+     color: red;
+     font-style: bold;
+     margin-top: 20%;
+     font-size: 25px;
+   }
+   footer .footer{
+     width: 100%
+     height:20vh;
+     background-color:black;
+     color:white;
+     text-align:center;
+     font-size: 30px;
+   }
+
+   .container2 img{
+     width: 100%;
+     height: 80vh;
+   }
+   
+   
+   
+  </style>
+</head>
+<body>
+  <div class="header">
+    <ul>
+     
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Servises</a></li>
+      <li><a href="#contact">Contact</a></li>
+    
+    <input type="search"name="search"id="search"placeholder="search this website">
+    <button id="btnSm">Search</button>
+    </ul>
+  </div>
+  
+  <h2 id="home">Home</h2>
+  <div class="container">
+    
+    <h2>Wellcome to my website learn coding</h2>
+    <di
+    <p class="paragraph">My Name Is Ramesh Kumar From Oan Nagarpakar Distric Tharparkar,Iam learn Coading, Iam 22 Years Old Iam a Website Designer.Institution Musken jahan khan khoso higher secondary school Nagarparkar </p>
+    <hr>
+    <h2 class="ramesh"><marquee behavior="alternate" >Created By Ramesh Kumar</marquee></h2>
+    
+  </div>
+  <h2 id="about">About-us</h2>
+  <div class="container container-2">
+    <h2 class="rk">About Education</h2>
+     <p>Education can be thought of as the transmission of the values and accumulated<u> knowledge of a society.</u> In this sense, it is equivalent to what social scientists term socialization or enculturation. Children—whether conceived among New Guinea tribespeople, the Renaissance Florentines, or the middle classes of Manhattan—are born without culture. Education is designed to guide them in learning a culture, molding their behaviour in the ways of adulthood, and directing them toward their eventual role in society. In the most primitive cultures, there is often little formal learning—little of what one would ordinarily call school or classes or teachers. Instead, the entire environment and all activities are frequently viewed as school.
+     </p>
+  </div>
+  <h2 id="services">__Services__</h2>
+  <div class="container container2">
+    <img src="img/FB_IMG_1652770457873.jpg" alt="image">
+  </div>
+  
+  <div class="form">
+    <h2 id="contact">Contact-us</h2>
+    <div class="input-group"><br>
+      <input type="name"placeholder="Enter you name"required maxlength="6"><br>
+    </div>
+    <div class="input-group"><br>
+      <input type="fatherName"placeholder="Enter Father name"required><br>
+      <div class="input-group"><br>
+        <input type="useName"placeholder="Enter user name"required><br>
+        <div class="input-group"><br>
+          <input type="password"placeholder="Enter you password"required>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <button class="btn">Submit</button>
+  <footer>
+    <h5 class="footer">Learn coding copyright 2022 All rights reserved!</h5>
+  </footer>
+</body>
+</html>
